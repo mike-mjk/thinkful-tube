@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>YouTube Search</title>
+		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Montserrat" rel="stylesheet" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+		<script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="app.js"></script>
+
+		<style>
+			* {
+				font-family: 'Lato';
+			}
+			header {
+				background-color: #000;
+				font-family: 'Montserrat';
+				margin: 0 0 15px;
+			}
+
+			header h1 {
+				margin: 0;
+				text-align: center;
+				font-size: 15pt;
+				text-transform: uppercase;
+				padding: 10px;
+			}
+
+			header h1 a {
+				text-decoration: none;
+				color: #fff;
+			}
+
+			header h1 a:hover {
+				text-decoration: none;
+				color: inherit;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1><a href="">Youtube Search</a></h1>
+		</header>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-4 col-sm-offset-4">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title">Search YouTube</h3>
+						</div>
+						<div class="panel-body">
+							<form action="#" class="js-search-form">
+								<!-- why put this label in here -->
+								<label for="query">Query</label>
+								<input type="text" class="js-query form-control" id="query">
+								<button type="submit" class="js-button btn btn-primary">Search</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-4 col-sm-offset-4">
+					<div class="js-search-results">
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<ul>
+			<li class="item"></li>
+			<li class="item"></li> 
+		</ul>
+	</body>
+</html>
